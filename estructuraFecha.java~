@@ -1,0 +1,40 @@
+// declarando una funcion! // si quiero que no devuelva un valor es void en lugar del tipo de dato
+// String, es un objeto no un tipo de dato, ese pudede ser referenciado
+import java.util.*;
+  
+public class estructuraFecha{
+  
+  public static void main (String[] args) {
+    
+    Scanner teclado=new Scanner(System.in);
+    int valor=5;
+   
+    int valorModificado=duplicar(valor);
+    System.out.println(valor+": valor");
+    System.out.println(valorModificado+ ": valorModificado");
+    
+  }
+  
+  public static int duplicar (int valor) {                  
+    return valor*2;
+  }
+  
+}
+
+      
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
