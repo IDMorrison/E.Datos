@@ -6,26 +6,23 @@
 // para llamar a estas funciones dentro de Funciones.java = nombreDeClase.nombreDeFuncion  .
 
 public class Funciones {
-
-  public static long factorial (long entero) {
-    long salida = entero;
-    long i = 0;
-    int factorizado = 0;
-    
-    if (entero==0) { 
-      return 1;
+ 
+    public static long factorial (long fact) {
+      if (fact == 0)  return 1;
+      return fact*factorial(fact-1);
     }
+
+
+    public static long combinatoria (long m, long n){
+      long _m = factorial(m);
+      long _mn = factorial(m-n);
+      long _n = factorial(n);
     
-    if (entero>0){
-      for (i=salida-1; i>0; i--){
-        salida=salida*i;
-      }
+      long salida = _m/(_mn*_n);
       return salida;
     }
     
-    else { 
-      return 0; 
-    }
-  }
-
 }
+
+// tp1 -- 2- 3- 4- 6- 8- 13- 15- 16- 18-
+// tp2 -- 

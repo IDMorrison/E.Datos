@@ -1,3 +1,3 @@
 public class Nombre {
-  String nombre;
+  String nombre1;
 }
