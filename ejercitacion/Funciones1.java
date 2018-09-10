@@ -46,6 +46,7 @@ public class Funciones1 {
   
   public static int checkFecha (Fecha cumple){
     if (cumple.dia>31 || cumple.mes>12 || cumple.anio>9999) return 0;
+    if (cumple.dia<1 || cumple.mes<1 || cumple.anio>9999) return 0;
     else return 1;
   }
   
@@ -61,6 +62,20 @@ public class Funciones1 {
     cumple.dia+=1;
     if (checkFecha(cumple)==0) {cumple.dia=1; cumple.mes+=1;}
     if (checkFecha(cumple)==0) {cumple.mes=1; cumple.anio+=1;}
+  }
+  
+  public static void nuevosNDias (Fecha cumple, int cantDias){
+    if (cantDias>0) {nuevoDia(cumple); nuevosNDias(cumple,cantDias-1);}
+  }
+  
+  
+  public static void cambiaDia (Fecha cumple, int direccion){
+    cumple.dia+=direccion;
+    int direccionDia; int direccionMes;
+    if (direccion>0) { direccionDia = 1; direccionMes = 1; System.out.println("-Entró: if direccion>0");}
+    else { direccionDia = 31; direccionMes=12; System.out.println("-Entró: if direccion<0");}
+    if (checkFecha(cumple)==0) {cumple.dia=direccionDia; cumple.mes+=direccion; System.out.println("-Entró: primer validacion");}
+    if (checkFecha(cumple)==0) {cumple.mes=direccionMes; cumple.anio+=direccion;System.out.println("-Entró: segunda validacion");}
   }
 
 }
