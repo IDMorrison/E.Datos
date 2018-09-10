@@ -23,13 +23,26 @@ public class Funciones {
       return salida;
     }
     
-    public static int pertenece (int n1){
-      int n1;
-      if (n1>20)
-        return 0
-      return n1+pertence(n1)
+    
+    
+    public static int pertenece2 (int n){
+      
+      if (n>1){
+          return pertenece2(n-1) + pertenece2(n-2);  //función recursiva
+      }
+      else if (n==1) {  // caso base
+        return 1;
+      }
+      else if (n==0){  // caso base
+        return 0;
+      }
+      else{ //error
+        System.out.println("Debes ingresar un tamaño mayor o igual a 1");
+        return -1; 
+      }
     }
 }
+
 
 // tp1 -- 2- 3- 4- 6- 8- 13- 15- 16- 18-
 // tp2 -- 

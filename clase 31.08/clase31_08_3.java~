@@ -5,7 +5,7 @@ public class clase31_08_3 {
    long resultado = Funciones.factorial(valor);
    System.out.println(resultado);
    
-   long resultadoC = Funciones.combinatoria(3,5);
+   long resultadoC = Funciones.combinatoria(5,3);
    System.out.println(resultadoC);
   }
 }

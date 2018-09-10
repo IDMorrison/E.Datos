@@ -3,8 +3,7 @@
       // C(m,n) =      m!
       //            (m-n)!n!
 
-// Para llamar a estas funciones fuera de Funciones.java = nombreDeClase.nombreDeFuncion(parametros)  .
-// cuando es dentro de la misma class Funciones = nombreDeFuncion(parametros)
+// para llamar a estas funciones dentro de Funciones.java = nombreDeClase.nombreDeFuncion  .
 
 public class Funciones {
  
@@ -21,13 +20,6 @@ public class Funciones {
     
       long salida = _m/(_mn*_n);
       return salida;
-    }
-    
-    public static int pertenece (int n1){
-      int n1;
-      if (n1>20)
-        return 0
-      return n1+pertence(n1)
     }
 }
 
