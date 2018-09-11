@@ -2,7 +2,7 @@ public class Funciones1 {
 
   public static int sumaN (int n){
     System.out.println(n);
-    if (n==0) return 0;
+    if (n==1) return 1;
     System.out.println(n);
     return n+(sumaN(n-1));
   }
@@ -72,10 +72,14 @@ public class Funciones1 {
   public static void cambiaDia (Fecha cumple, int direccion){
     cumple.dia+=direccion;
     int direccionDia; int direccionMes;
-    if (direccion>0) { direccionDia = 1; direccionMes = 1; System.out.println("-Entró: if direccion>0");}
-    else { direccionDia = 31; direccionMes=12; System.out.println("-Entró: if direccion<0");}
-    if (checkFecha(cumple)==0) {cumple.dia=direccionDia; cumple.mes+=direccion; System.out.println("-Entró: primer validacion");}
-    if (checkFecha(cumple)==0) {cumple.mes=direccionMes; cumple.anio+=direccion;System.out.println("-Entró: segunda validacion");}
+    if (direccion>0) { direccionDia = 1; direccionMes = 1; }
+    else { direccionDia = 31; direccionMes=12; }
+    if (checkFecha(cumple)==0) {cumple.dia=direccionDia; cumple.mes+=direccion;}
+    if (checkFecha(cumple)==0) {cumple.mes=direccionMes; cumple.anio+=direccion;}
+  }
+  
+  public static void nuevosNDiasPolivalente (Fecha cumple, int direccion, int cantDias){
+    if (cantDias>0) { cambiaDia(cumple,direccion); nuevosNDiasPolivalente(cumple,direccion,cantDias-1) ;}
   }
 
 }

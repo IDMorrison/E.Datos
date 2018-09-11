@@ -10,8 +10,8 @@ public class ejercicios {
 //    float salidaDiv = Funciones1.div(9,5,contador); // ejercicio: 9
 //    System.out.println(salidaDiv);     
 
-//    int salidaN = Funciones1.sumaN(5);  // ejercicio: 10
-//    System.out.println(salidaN);
+    int salidaN = Funciones1.sumaN(5);  // ejercicio: 10
+    System.out.println(salidaN);
 
 //    int i=1; int numPares=2;
 //    int salida = Funciones1.sumaPares(numPares,i); // ejercicio: 11
@@ -36,29 +36,40 @@ public class ejercicios {
 //    cumple.dia=5;
 //    cumple.mes=12;
 //    cumple.anio=1995;
-//    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Año: "+cumple.anio);
+//    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Anio: "+cumple.anio);
 //    Funciones1.nuevoDia(cumple);
-//    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Año: "+cumple.anio);
+//    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Anio: "+cumple.anio);
 //    
 //    Fecha cumple = new Fecha();   // ejercicio16
 //    cumple.dia=5;
 //    cumple.mes=12;
 //    cumple.anio=1995;
 //    int cantDias = 45;
-//    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Año: "+cumple.anio);
+//    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Anio: "+cumple.anio);
 //    Funciones1.nuevosNDias(cumple,cantDias);
 //    System.out.println(cantDias+" dias despues...");
-//    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Año: "+cumple.anio);
+//    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Anio: "+cumple.anio);
     
-    Fecha cumple = new Fecha();   // ejercicio16
-    cumple.dia=1;
-    cumple.mes=1;
-    cumple.anio=1995;
-    int cantDias = 45;
-    int sentido = -1;
-    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Año: "+cumple.anio);
-    Funciones1.cambiaDia(cumple,sentido);
-    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Año: "+cumple.anio);
+//    Fecha cumple = new Fecha();   // hago un cambiarDia polivalente;
+//    cumple.dia=1;
+//    cumple.mes=1;
+//    cumple.anio=1995;
+//    int cantDias = 45;
+//    int sentido = -1;
+//    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Anio: "+cumple.anio);
+//    Funciones1.cambiaDia(cumple,sentido);
+//    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Anio: "+cumple.anio);
+    
+//    Fecha cumple = new Fecha();   // hago un cambiarDia polivalente con n dias y direccion;
+//    cumple.dia=1;
+//    cumple.mes=1;
+//    cumple.anio=1995;
+//    int cantDias = 45;
+//    int sentido = 1;
+//    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Anio: "+cumple.anio);
+//    Funciones1.nuevosNDiasPolivalente(cumple,sentido,cantDias);
+//    System.out.println("Dia: "+cumple.dia+" Mes: "+cumple.mes+" Anio: "+cumple.anio);
+    
   }
 
 
