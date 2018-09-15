@@ -82,6 +82,20 @@ public class Funciones1 {
     return acum;
   }
   
+  public static boolean esMatrizDiagonal(int matriz[][]){
+    int acum=0;
+    int acum1=0;
+    
+    for (int i=0; i<matriz.length; i++){
+      for (int j=0; j<matriz.length; j++){
+        acum = acum + matriz[i][j];
+      }
+    }
+    
+    acum1 = sumarDiagonalPrincipal(matriz);
+    if (acum-acum1==0) { return true; }
+    else { return false;}
+  }
     
   
   
