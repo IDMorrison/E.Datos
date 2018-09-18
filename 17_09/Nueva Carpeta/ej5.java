@@ -12,7 +12,7 @@ public class ej5 {
     int aux2=0;
     vector= cargarVector(vector,j,teclado);
     
-    vector= bajarPosicion(vector,i,aux,aux2);
+    vector= bajarPosicion(vector,i,aux);
     imprimirVector(vector,j);
     
   
@@ -28,20 +28,20 @@ public class ej5 {
     else { return vector; } 
   }
   
-  public static int[] bajarPosicion(int vector[], int i, int aux, int aux2){
+  public static int[] bajarPosicion(int vector[], int i, int aux){
     
     if (i==vector.length-1) { 
-      aux2=vector[vector.length-1];
-      return bajarPosicion(vector,i-1,aux,aux2);
+      aux=vector[vector.length-1];
+      return bajarPosicion(vector,i-1,aux);
     }
     
     if (i>=0 && i!= vector.length-1 ) {
       vector[i+1]=vector[i];
-      return bajarPosicion(vector,i-1,aux,aux2);
+      return bajarPosicion(vector,i-1,aux);
     }
     
     else { 
-      vector[0]=aux2;
+      vector[0]=aux;
       return vector;
     }
   }
