@@ -1,0 +1,5 @@
+public class fechaprueba {
+  public static void main (String[] args){
+    Fecha[] date = [2]
+  }
+}

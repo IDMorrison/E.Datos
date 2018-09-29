@@ -1,0 +1,7 @@
+public class ejercicio1 {
+  public static void main (String[] args){
+    File f = new File(".");
+    
+    System.out.println(f.canRead())
+  }
+}
