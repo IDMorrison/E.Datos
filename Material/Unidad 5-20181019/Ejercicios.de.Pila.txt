@@ -1,0 +1,19 @@
+
+TP Pilas 
+
+Ejercicio 1
+Desarrolle la implementación estática de Pila, con sus correspondientes funciones de acceso para manipular la información.
+
+Ejercicio 2
+Ídem anterior para la implementación dinámica de Pila.
+
+Ejercicio 3
+Escriba un programa que permita el ingreso de N numeros enteros (0 para terminar),
+Los guarde en una Pila de implementacion dinamica de memoria. Luego al terminar, muestre por 
+pantalla (al ser desapilados), los numeros ingresados.
+
+Ejercicio 4 
+Resuelva el cálculo de la suma de dos números enteros de muchos dígitos (30 o muchos más) 
+haciendo uso de dos pilas en las que almacena sólo los dígitos.  Tenga en cuenta que debe utilizar una 
+tercera pila en la que irá cargando los resultados parciales. Compruebe que obtiene idénticos resultados 
+con ambas implementaciones de Pila (estática y dinámica).
