@@ -1,0 +1,10 @@
+public class PilaEstatica{
+  private int[] datos = null;
+  private int tamanio = 0;
+  private int posicion=-1;
+  
+  public PilaEstatica(int size){
+    tamanio=size; 
+    datos = new int[tamanio]
+  }
+}
