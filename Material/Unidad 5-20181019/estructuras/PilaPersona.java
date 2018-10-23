@@ -1,9 +1,9 @@
-public class Pila {
+public class PilaPersona {
 
  private Nodo tope = null;
  private int elementos = 0;
 
- public Pila() {
+ public PilaPersona() {
   elementos = 0;
   // Crea una pila vacia.
   tope = null;

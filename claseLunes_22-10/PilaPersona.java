@@ -1,9 +1,9 @@
-public class Pila {
+public class PilaPersona {
 
- private Nodo tope = null;
+ private NodoPersona tope = null;
  private int elementos = 0;
 
- public Pila() {
+ public PilaPersona() {
   elementos = 0;
   // Crea una pila vacia.
   tope = null;
@@ -19,10 +19,10 @@ public class Pila {
   return false;
  }
 
- public void apilar(int valor) {
+ public void apilar(Persona valor) {
 
-  Nodo nodoActual = new Nodo();
-  nodoActual.dato = valor;
+  NodoPersona nodoActual = new NodoPersona();
+  nodoActual.persona1 = valor;
 
   nodoActual.siguiente = tope;// El actual, apunta al nodo tope.
 
@@ -31,8 +31,8 @@ public class Pila {
   elementos++;
  }
 
- public int desApilar() {
-  int valor = tope.dato;
+ public Persona desApilar() {
+  Persona valor = tope.persona1;
   
   tope = tope.siguiente;//El nuevo tope, es el nodo siguiente al tope actual.
   elementos--;
@@ -50,7 +50,7 @@ public class Pila {
      // (Excepto por falta de memoria o alguna limitacion)
  }
 
- public int cima() {
-   return tope.dato;//Solo devuelve el dato del tope, sin cambiar el tope.
+ public Persona cima() {
+   return tope.persona1;//Solo devuelve el dato del tope, sin cambiar el tope.
  }
 }

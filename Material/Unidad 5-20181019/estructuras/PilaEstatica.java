@@ -1,3 +1,5 @@
+
+
 public class PilaEstatica{
   private int[] datos = null;
   private int tamanio = 0;

@@ -1,4 +1,4 @@
-public class Pila {
+public class PilaPersona {
 
  private Nodo tope = null;
  private int elementos = 0;

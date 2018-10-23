@@ -65,6 +65,7 @@ public class ejSumaPilas {
    while(!pila3.estaVacia()){
      System.out.print(""+pila3.desApilar());
    }
+  
    
 
 
