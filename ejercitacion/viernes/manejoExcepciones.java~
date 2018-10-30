@@ -1,7 +1,0 @@
-import java.util.*;
-public class manejoExcepciones {
-  public static void main (String[] args){
-    Scanner teclado = new Scanner(System.in)
-    int entero = teclado.nextInt();  
-  }
-}

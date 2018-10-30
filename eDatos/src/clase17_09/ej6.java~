@@ -1,0 +1,24 @@
+public class ej6 {
+  public static void main (String[] args){
+    int[][] matriz = new int[5][5];
+    
+    
+  }
+  
+  public static int[][] (int matriz[][]){
+    for (int i=0;i<6;i++){
+      for (int j=0;i<6;i++){
+        matriz[i][j]=i+j;
+      }
+    }
+    return matriz;
+  }
+  
+  public static void imprimir (int matriz[][]){
+    for (int i=0;i<matriz.length;i++){
+      for (int j=0;j<matriz.length;i++){
+        System.out.println(matriz[i][j]);
+      }
+    }
+  }
+}

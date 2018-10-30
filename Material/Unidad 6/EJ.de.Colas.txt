@@ -1,0 +1,9 @@
+Escribir un programa con menú de opciones para simular el movimiento de clientes en una cola de espera de un banco.
+El programa debe permitir despachar al siguiente de la cola y "encolar" a los clientes que llegan.
+Debe guardarse el nombre del cliente a medida que estos llegan a la cola.
+Menu:
+1) Ingresar cliente a la cola.
+2) Atender al próximo cliente.
+3) Cierra el banco, se atiende uno a uno a los clientes que quedaron en la cola, hasta que se vacíe.
+
+Si se desea atender al próximo cliente y la cola esta vacía, avisar del hecho y continuar hasta el horario de cierre.

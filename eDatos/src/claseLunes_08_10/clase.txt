@@ -1,0 +1,9 @@
+Se  dispone de dos  archivos binarios:	<"empleados"> y <"estudiantes">.
+Cada registro del primer archivo contiene los campos:
+
+-	<dni>, <apellido>, <nombre> y <sueldo>, en tanto que los del segundo :
+
+-	<dni>, <apellido>, <nombre> y <promedio>.
+Ambos archivos están ordenados por <dni>. Ambos archivos deben ser leídos sólo una vez, y no deben ser almacenados en arrays. El sueldo es double  y el promedio es float.
+
+Imprima los resultados por pantalla.

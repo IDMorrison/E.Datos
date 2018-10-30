@@ -1,0 +1,18 @@
+public class ej5 {
+  public static void main (String[] args){
+    Scanner teclado = new Scanner(System.in);
+    
+    int[] vector = new int[10];
+    int i=0;
+    vector= cargarVector(vector,i);
+      
+  }
+  
+  public static int[] cargarVector(int vector[], int i){
+    if (i<vector.length) { 
+      System.out.println("Ingrese un valor");
+      vector[i]= teclado.nextInt();
+      cargarVector(vector,i+1);
+    }
+  }
+}
