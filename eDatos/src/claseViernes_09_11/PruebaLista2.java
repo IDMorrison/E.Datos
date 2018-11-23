@@ -10,7 +10,7 @@ public class PruebaLista2 {
     for(int i=1;i<6; i++)
      lista.agregar(i);
      
-    lista.insertar(2, 99);
+    lista.insertar(-2, 99);  //(posicion, dato)
     System.out.println(lista.getSize());
     System.out.println(lista.get(2));
     System.out.println(lista.primero());

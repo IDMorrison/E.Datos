@@ -1,0 +1,20 @@
+
+Ejercicio de Lista:
+
+Implementar una lista de espera para el ingreso a un prestigioso y popular RESTO.
+Tenga en cuenta las siguientes consideraciones.
+- El encargado del local ordena la fila por orden de llegada, pero es susceptible de recibir "comisiones" por posiciones privilegiadas dentro de la fila.
+1) Si recibe una motivación por $200, lo coloca en la posición 3 de la fila.
+2) Si recibe $150 lo coloca en décimo lugar.
+3) Si recibe $100 le permite "colarse" 3 posiciones antes del ultimo de la fila.
+4) Si usted no da comisión, va al final de la fila.
+
+- Hacer un menú de opciones que permita el ingreso a la fila de entrada al local.
+1) Una opción debe ser la entrada al local y dentro de esa opción, las opciones antes mencionadas.
+2) Que pase el siguiente de la lista (ingresa al local, el primero de la lista).
+3) Mostrar por pantalla la lista de espera.
+4) La opción 4 debe ser vaciar la lista (cerrar el local). Al vaciar, mostrar su contenido.
+
+- Hacer funciones. Tenga en cuenta que la opción 1 al mismo tiempo tiene otro menú interno.
+
+Los nodos de la lista deben permitir almacenar un tipo String. con el nombre de la persona que ingresa al local.
