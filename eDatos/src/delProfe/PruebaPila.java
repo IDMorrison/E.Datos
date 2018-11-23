@@ -1,0 +1,18 @@
+package delProfe;
+
+public class PruebaPila {
+
+	public static void main(String[] args) {
+
+		Pila pila = new Pila();
+		
+		for(int i=1; i<11; i++)
+			pila.apilar(i);
+		
+		
+		while(!pila.estaVacia())
+			System.out.println("Elementos>"+pila.tamanio()+" Valor: "+pila.desApilar());
+		
+	}
+
+}
